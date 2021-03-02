@@ -1,0 +1,80 @@
+.shell{
+    background-color: hsl(185, 75%, 39%);
+    margin: 2% 5%;
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 5vmin 0;
+    border: 1px solid hsl(185, 75%, 39%);
+    width: 35%;
+    border-radius: 8vmin;
+    font-family: 'Kumbh Sans', sans-serif !important;
+}
+.top{
+    background: linear-gradient(to right,rgb(15, 83, 231), #48d1cc );
+    height: 23vmin;
+    border-top-left-radius: 3vmin;
+    border-top-right-radius: 3vmin;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -8vmin;
+    border: 5px solid white;
+}
+.content{
+    text-align: center;
+    background-color: white;
+}
+.content h3{
+    font-weight: bold;
+    color: hsl(229, 23%, 23%);
+}
+.content span{
+    color: hsl(227, 10%, 46%);
+    padding-left: 1vmin;
+    font-weight: bold;
+}
+.location{
+    color: hsl(227, 10%, 46%);
+}
+
+.footer{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    border-bottom-left-radius: 3vmin;
+    border-bottom-right-radius: 3vmin;
+}
+.col h2{
+    font-family: arial;
+    font-weight: bolder;
+    color: hsl(229, 23%, 23%);
+}
+.col h5{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+    font-weight: bold;
+}
+
+@media screen and (max-width:730px){
+    .shell{
+        margin: 10% 0 0 0;
+        padding: 8% 0;
+
+    }
+    .card{
+        width: 80%;
+    }
+    .img{
+        width: 65px;
+        height: 65px;
+    }
+}
